@@ -1,0 +1,1276 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08264b">
+
+  <title>Real Alpha Shylock Loan | Kenya</title>
+
+  <meta name="description" content="Real Alpha Shylock Loan. Explore business, education and emergency loan options in Kenya.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #08264b;
+      --blue: #0866cf;
+      --gold: #ffc928;
+      --light: #f2f7fd;
+      --white: #fff;
+      --text: #172b45;
+      --muted: #64748b;
+      --border: #dce6f1;
+      --radius: 16px;
+      --shadow: 0 12px 35px rgba(8,38,75,.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 85px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    button, input, select, textarea {
+      font: inherit;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    a { color: inherit; text-decoration: none; }
+
+    button { cursor: pointer; }
+
+    img { max-width: 100%; }
+
+    .container {
+      width: min(1160px, 92%);
+      margin: auto;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 16px #061d3b20;
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 800;
+      font-size: 17px;
+      line-height: 1.25;
+    }
+
+    .brand-mark {
+      width: 43px;
+      height: 43px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 25px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 21px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover, .footer a:hover {
+      color: var(--gold);
+    }
+
+    .nav-actions, .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 12px 18px;
+      font-weight: 700;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: transform .2s, background .2s;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .btn-primary:hover { background: #ffda61; }
+
+    .btn-secondary {
+      background: transparent;
+      color: inherit;
+      border-color: #9db1c8;
+    }
+
+    .btn-secondary:hover { background: #ffffff12; }
+
+    .btn-block { width: 100%; }
+
+    .hero {
+      background:
+        radial-gradient(ellipse at 80% 20%, #2369a0 0%, transparent 38%),
+        linear-gradient(125deg, #08264b, #0b447a);
+      color: white;
+      padding: 76px 0 68px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 65px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: #dca900;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      margin-bottom: 10px;
+    }
+
+    .hero .eyebrow { color: var(--gold); }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 55px);
+      line-height: 1.12;
+      letter-spacing: -1.7px;
+      margin-bottom: 20px;
+    }
+
+    h1 span { color: var(--gold); }
+
+    .hero-copy > p {
+      max-width: 570px;
+      color: #dce8f6;
+      font-size: 15px;
+      line-height: 1.9;
+      margin-bottom: 27px;
+    }
+
+    .hero-actions { margin-bottom: 34px; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .stats li {
+      border-right: 1px solid #ffffff40;
+      padding-right: 10px;
+    }
+
+    .stats li:last-child { border: 0; }
+
+    .stats strong {
+      display: block;
+      font-size: 20px;
+      color: var(--gold);
+    }
+
+    .stats span {
+      font-size: 11px;
+      color: #dce8f6;
+    }
+
+    .glass-card {
+      background: white;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .loan-summary { overflow: hidden; }
+
+    .summary-heading {
+      background: var(--blue);
+      color: white;
+      padding: 17px 22px;
+      font-weight: 700;
+    }
+
+    .summary-body { padding: 24px; }
+
+    .summary-body h3 { margin-bottom: 17px; }
+
+    .amount-box {
+      padding: 17px;
+      border-radius: 12px;
+      background: var(--light);
+      margin-bottom: 18px;
+    }
+
+    .amount-box span, .amount-box strong { display: block; }
+
+    .amount-box span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .amount-box strong {
+      color: var(--navy);
+      font-size: clamp(18px, 2vw, 23px);
+      margin-top: 4px;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+    }
+
+    .info-row span { text-align: right; }
+
+    .summary-body .btn { margin-top: 20px; }
+
+    .section { padding: 75px 0; }
+
+    .section-heading { text-align: center; margin-bottom: 35px; }
+
+    .section-heading h2, .ceo-content h2,
+    .support-copy h2 {
+      color: var(--navy);
+      font-size: clamp(26px, 3vw, 34px);
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+
+    .section-heading p { color: var(--muted); }
+
+    .ceo-section { background: var(--light); }
+
+    .ceo-card {
+      padding: 35px;
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .ceo-avatar {
+      width: 180px;
+      height: 180px;
+      border: 6px solid var(--blue);
+      border-radius: 50%;
+      margin: auto;
+      background: linear-gradient(145deg, #d7e9fa, #8ab5e0);
+      display: grid;
+      place-items: center;
+      color: var(--navy);
+      font-size: 55px;
+      font-weight: 800;
+      overflow: hidden;
+    }
+
+    .ceo-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .ceo-content p { color: var(--muted); }
+
+    .ceo-points {
+      padding-left: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .product-card {
+      padding: 26px;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px #08264b18;
+    }
+
+    .product-icon {
+      width: 53px;
+      height: 53px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      background: #e5f1ff;
+      font-size: 27px;
+      margin-bottom: 18px;
+    }
+
+    .product-card h3 { color: var(--navy); }
+
+    .product-card p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .product-card ul {
+      padding-left: 18px;
+      font-size: 12px;
+      line-height: 2;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .step {
+      padding: 24px;
+      background: var(--light);
+      box-shadow: none;
+    }
+
+    .step-number {
+      color: var(--blue);
+      font-weight: 800;
+      font-size: 25px;
+    }
+
+    .step h3 { margin: 10px 0; }
+
+    .step p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .apply-section { background: var(--light); }
+
+    .apply-grid {
+      display: grid;
+      grid-template-columns: 1.35fr .8fr;
+      gap: 25px;
+      align-items: start;
+    }
+
+    .form-panel, .portal-panel { padding: 28px; }
+
+    .section-heading.left { text-align: left; margin-bottom: 24px; }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 17px;
+      margin-bottom: 17px;
+    }
+
+    .field { min-width: 0; }
+
+    .field label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+
+    .field input, .field select, .field textarea {
+      display: block;
+      width: 100%;
+      border: 1px solid #cfdae7;
+      border-radius: 9px;
+      padding: 12px;
+      background: #fff;
+      color: var(--text);
+      outline: none;
+      min-width: 0;
+      font-size: 13px;
+    }
+
+    .field input:focus, .field select:focus,
+    .field textarea:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px #0866cf15;
+    }
+
+    .field input[type="file"] {
+      padding: 9px;
+      font-size: 11px;
+    }
+
+    .field textarea { resize: vertical; }
+
+    .help-text {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .notice {
+      border-radius: 10px;
+      padding: 13px;
+      font-size: 12px;
+      margin: 18px 0;
+      background: #fff7dc;
+      color: #6d5010;
+    }
+
+    .tab-switch {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: #edf2f8;
+      border-radius: 10px;
+      padding: 4px;
+      margin-bottom: 23px;
+    }
+
+    .tab {
+      padding: 11px;
+      border: 0;
+      background: transparent;
+      border-radius: 8px;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .tab.active {
+      background: var(--blue);
+      color: white;
+    }
+
+    .portal-panel .field { margin-bottom: 17px; }
+
+    .portal-note {
+      margin-top: 20px;
+      background: var(--light);
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .portal-note p { margin: 0; }
+
+    .support-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .support-copy p { color: var(--muted); }
+
+    .support-actions {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 13px;
+    }
+
+    .support-card {
+      padding: 18px 13px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .support-card .support-icon {
+      font-size: 25px;
+      flex-shrink: 0;
+    }
+
+    .support-card strong, .support-card small { display: block; }
+
+    .support-card strong { font-size: 13px; }
+
+    .support-card small {
+      font-size: 10px;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    .footer {
+      background: var(--navy);
+      color: white;
+      padding: 26px 0;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 22px;
+      font-size: 12px;
+    }
+
+    .footer small {
+      display: block;
+      color: #c6d5e6;
+      font-size: 11px;
+      margin-top: 12px;
+    }
+
+    .menu-toggle { display: none; }
+
+    .status-message {
+      display: none;
+      padding: 13px;
+      border-radius: 9px;
+      font-size: 13px;
+      margin-top: 15px;
+    }
+
+    .status-message.visible { display: block; }
+
+    .status-message.error {
+      background: #fff0f0;
+      color: #9c2020;
+    }
+
+    .status-message.info {
+      background: #eaf4ff;
+      color: #104a84;
+    }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 1000px) {
+      .nav { flex-wrap: wrap; padding: 12px 0; }
+      .nav-links { order: 3; width: 100%; justify-content: center; }
+      .hero-grid { gap: 30px; }
+      .apply-grid { grid-template-columns: 1fr; }
+      .support-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 700px) {
+      .nav { gap: 12px; }
+      .brand { font-size: 14px; }
+      .brand-mark { width: 36px; height: 36px; }
+      .nav-actions .btn { padding: 9px 11px; }
+      .nav-links { gap: 13px; overflow-x: auto; justify-content: flex-start; font-size: 12px; padding-bottom: 5px; }
+      .hero { padding: 48px 0; }
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-copy > p { font-size: 14px; }
+      .stats strong { font-size: 16px; }
+      .section { padding: 52px 0; }
+      .ceo-card { grid-template-columns: 1fr; padding: 24px; text-align: center; }
+      .ceo-points { text-align: left; grid-template-columns: 1fr; }
+      .product-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .form-panel, .portal-panel { padding: 20px; }
+      .support-actions { grid-template-columns: 1fr; }
+      .footer-row { flex-direction: column; align-items: flex-start; }
+      .footer-links { flex-wrap: wrap; }
+    }
+
+    @media (max-width: 420px) {
+      .form-row { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .nav-actions { width: 100%; }
+      .nav-actions .btn { flex: 1; }
+      .stats { gap: 7px; }
+      .stats strong { font-size: 14px; }
+      .stats span { font-size: 10px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#home" class="brand" aria-label="Real Alpha Shylock Loan home">
+        <span class="brand-mark">R</span>
+        <span>Real Alpha Shylock Loan</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#apply">Apply</a>
+        <a href="#support">Support</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-secondary" id="portalBtn">Portal</button>
+        <button type="button" class="btn btn-primary" data-scroll="#apply">Apply Now</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Fast · Secure · Transparent</span>
+
+          <h1>Build your business.<br><span>Grow your future.</span></h1>
+
+          <p>
+            Real Alpha Shylock Loan provides information about business,
+            education and emergency loan options for eligible applicants
+            in Kenya. Submit your application for review.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#apply" class="btn btn-primary">Apply for a Loan</a>
+            <a href="tel:+254118078137" class="btn btn-secondary">Call Support</a>
+          </div>
+
+          <ul class="stats">
+            <li><strong>KSh 5,000</strong><span>Minimum loan</span></li>
+            <li><strong>KSh 50,000</strong><span>Maximum loan</span></li>
+            <li><strong>Support</strong><span>Contact our team</span></li>
+          </ul>
+        </div>
+
+        <div class="loan-summary glass-card">
+          <div class="summary-heading">Loan Summary</div>
+
+          <div class="summary-body">
+            <h3>Loan Overview</h3>
+
+            <div class="amount-box">
+              <span>Displayed loan range</span>
+              <strong>KSh 5,000 – 50,000</strong>
+            </div>
+
+            <div class="info-row">
+              <span>Purpose</span>
+              <span>Business / Education</span>
+            </div>
+
+            <div class="info-row">
+              <span>Application</span>
+              <span>Online submission</span>
+            </div>
+
+            <div class="info-row">
+              <span>Repayment</span>
+              <span>As agreed in writing</span>
+            </div>
+
+            <div class="info-row">
+              <span>Approval</span>
+              <span>Subject to review</span>
+            </div>
+
+            <a href="#apply" class="btn btn-primary btn-block">Start Application</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ceo-section">
+      <div class="container">
+        <div class="ceo-card glass-card">
+          <div class="ceo-avatar" aria-label="CEO photo placeholder">
+            <!-- Replace this placeholder with the authorized CEO photograph. -->
+            <span>MV</span>
+          </div>
+
+          <div class="ceo-content">
+            <span class="eyebrow">Meet Our CEO</span>
+            <h2>Mwenda Vincent</h2>
+
+            <p>
+              Mwenda Vincent is presented as the CEO of Real Alpha Shylock
+              Loan. The organization aims to provide applicants with a clear
+              application process and customer support.
+            </p>
+
+            <ul class="ceo-points">
+              <li>Business funding enquiries</li>
+              <li>Education loan enquiries</li>
+              <li>Application support</li>
+              <li>Transparent application review</li>
+            </ul>
+
+            <a class="btn btn-primary" href="tel:+254118078137">Contact the Office</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Loan Products</span>
+          <h2>Explore our loan options</h2>
+          <p>All applications are subject to eligibility checks and approval.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card glass-card">
+            <div class="product-icon" aria-hidden="true">💼</div>
+            <h3>Business Loan</h3>
+            <p>Apply for funding to support eligible business activities.</p>
+            <ul>
+              <li>Business funding enquiries</li>
+              <li>Business purpose details</li>
+              <li>Application review</li>
+            </ul>
+            <a href="#apply" class="btn btn-secondary">Apply Now</a>
+          </article>
+
+          <article class="product-card glass-card">
+            <div class="product-icon" aria-hidden="true">🎓</div>
+            <h3>Education Loan</h3>
+            <p>Submit an application for eligible education-related expenses.</p>
+            <ul>
+              <li>Tuition and school fees</li>
+              <li>Education purpose details</li>
+              <li>Application review</li>
+            </ul>
+            <a href="#apply" class="btn btn-secondary">Apply Now</a>
+          </article>
+
+          <article class="product-card glass-card">
+            <div class="product-icon" aria-hidden="true">🚀</div>
+            <h3>Emergency Loan</h3>
+            <p>Submit your funding request for consideration.</p>
+            <ul>
+              <li>Explain your urgent need</li>
+              <li>Provide required details</li>
+              <li>Application review</li>
+            </ul>
+            <a href="#apply" class="btn btn-secondary">Apply Now</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section" style="background:#f2f7fd">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">How It Works</span>
+          <h2>Steps to submit an application</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step glass-card">
+            <span class="step-number">01</span>
+            <h3>Prepare</h3>
+            <p>Prepare your contact information and required documents.</p>
+          </article>
+
+          <article class="step glass-card">
+            <span class="step-number">02</span>
+            <h3>Apply</h3>
+            <p>Complete the form with accurate information.</p>
+          </article>
+
+          <article class="step glass-card">
+            <span class="step-number">03</span>
+            <h3>Upload</h3>
+            <p>Provide your passport photo and both sides of your National ID.</p>
+          </article>
+
+          <article class="step glass-card">
+            <span class="step-number">04</span>
+            <h3>Review</h3>
+            <p>Your application must be securely received and reviewed before any decision.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="section apply-section">
+      <div class="container apply-grid">
+        <div class="form-panel glass-card">
+          <div class="section-heading left">
+            <span class="eyebrow">Application Form</span>
+            <h2>Apply for a loan</h2>
+            <p>Fields marked with * are required.</p>
+          </div>
+
+          <form id="loanForm" enctype="multipart/form-data">
+            <div class="form-row">
+              <div class="field">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName"
+                  autocomplete="name" maxlength="100" required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email"
+                  autocomplete="email" maxlength="254" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone"
+                  autocomplete="tel" placeholder="0712345678 or +254712345678"
+                  pattern="(?:\+254|0)[17][0-9]{8}" maxlength="13" required>
+              </div>
+
+              <div class="field">
+                <label for="idNumber">National ID Number *</label>
+                <input type="text" id="idNumber" name="idNumber"
+                  inputmode="numeric" maxlength="20" autocomplete="off" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="loanAmount">Loan Amount (KSh) *</label>
+                <input type="number" id="loanAmount" name="loanAmount"
+                  min="5000" max="50000" step="500"
+                  placeholder="5,000–50,000" required>
+                <small class="help-text">Minimum KSh 5,000; maximum KSh 50,000.</small>
+              </div>
+
+              <div class="field">
+                <label for="loanType">Loan Type *</label>
+                <select id="loanType" name="loanType" required>
+                  <option value="">Select loan type</option>
+                  <option value="Business Loan">Business Loan</option>
+                  <option value="Education Loan">Education Loan</option>
+                  <option value="Emergency Loan">Emergency Loan</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="maritalStatus">Marital Status *</label>
+                <select id="maritalStatus" name="maritalStatus" required>
+                  <option value="">Select status</option>
+                  <option value="Single">Single</option>
+                  <option value="Married">Married</option>
+                  <option value="Divorced">Divorced</option>
+                  <option value="Widowed">Widowed</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="spouseName">Spouse Name</label>
+                <input type="text" id="spouseName" name="spouseName"
+                  maxlength="100" autocomplete="off" disabled>
+                <small class="help-text">Required only if you select Married.</small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="guarantorName">Guarantor Name *</label>
+                <input type="text" id="guarantorName" name="guarantorName"
+                  maxlength="100" required>
+              </div>
+
+              <div class="field">
+                <label for="guarantorPhone">Guarantor Phone *</label>
+                <input type="tel" id="guarantorPhone" name="guarantorPhone"
+                  placeholder="0712345678 or +254712345678"
+                  pattern="(?:\+254|0)[17][0-9]{8}" maxlength="13" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="passportPhoto">Passport Photo *</label>
+                <input type="file" id="passportPhoto" name="passportPhoto"
+                  accept="image/jpeg,image/png,image/webp" required>
+                <small class="help-text">JPG, PNG or WebP; maximum 5 MB.</small>
+              </div>
+
+              <div class="field">
+                <label for="idFront">National ID — Front *</label>
+                <input type="file" id="idFront" name="idFront"
+                  accept="image/jpeg,image/png,image/webp" required>
+                <small class="help-text">Upload a clear image, maximum 5 MB.</small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="idBack">National ID — Back *</label>
+                <input type="file" id="idBack" name="idBack"
+                  accept="image/jpeg,image/png,image/webp" required>
+                <small class="help-text">Upload a clear image, maximum 5 MB.</small>
+              </div>
+
+              <div class="field">
+                <label for="purposeDetails">Business / Education Details *</label>
+                <textarea id="purposeDetails" name="purposeDetails"
+                  rows="4" maxlength="2000"
+                  placeholder="Explain the purpose of your loan"
+                  required></textarea>
+              </div>
+            </div>
+
+            <div class="notice">
+              <strong>Privacy notice:</strong> Identity documents contain sensitive
+              information. Do not submit real documents until this website is
+              connected to a verified, secure application backend.
+            </div>
+
+            <div class="field" style="margin-bottom:18px">
+              <label>
+                <input type="checkbox" id="consent" required>
+                I confirm that the information I provide is accurate and agree
+                to the organization processing it for application review.
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit Application
+            </button>
+
+            <div id="loanMessage" class="status-message" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <aside class="portal-panel glass-card" id="portal">
+          <div class="section-heading left">
+            <span class="eyebrow">Portal Access</span>
+            <h2>Login / Register</h2>
+            <p>Portal authentication requires a secure backend.</p>
+          </div>
+
+          <div class="tab-switch" role="tablist" aria-label="Account options">
+            <button type="button" class="tab active" data-tab="login"
+              role="tab" aria-selected="true">Login</button>
+            <button type="button" class="tab" data-tab="register"
+              role="tab" aria-selected="false">Register</button>
+          </div>
+
+          <form id="authForm">
+            <div class="field">
+              <label for="authEmail">Email Address *</label>
+              <input type="email" id="authEmail" name="authEmail"
+                autocomplete="email" required>
+            </div>
+
+            <div class="field">
+              <label for="authPassword">Password *</label>
+              <input type="password" id="authPassword" name="authPassword"
+                minlength="8" autocomplete="current-password" required>
+              <small class="help-text">Use at least 8 characters.</small>
+            </div>
+
+            <div class="field hidden" id="confirmPasswordWrapper">
+              <label for="confirmPassword">Confirm Password *</label>
+              <input type="password" id="confirmPassword" name="confirmPassword"
+                minlength="8" autocomplete="new-password">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="authButton">
+              Login
+            </button>
+
+            <div id="authMessage" class="status-message" role="status" aria-live="polite"></div>
+          </form>
+
+          <div class="portal-note">
+            <p>
+              This frontend preview does not create accounts or verify passwords.
+              Secure authentication and application tracking must be implemented
+              on the server before public launch.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <div class="container support-grid">
+        <div class="support-copy">
+          <span class="eyebrow">Customer Care</span>
+          <h2>Need help with your application?</h2>
+          <p>Contact our listed support channels for assistance.</p>
+        </div>
+
+        <div class="support-actions">
+          <a class="support-card glass-card" href="tel:+254118078137">
+            <span class="support-icon" aria-hidden="true">📞</span>
+            <span>
+              <strong>Call Us</strong>
+              <small>0118 078 137</small>
+            </span>
+          </a>
+
+          <a class="support-card glass-card"
+            href="https://wa.me/254118078137?text=Hello%20Real%20Alpha%20Shylock%20Loan%2C%20I%20need%20assistance."
+            target="_blank" rel="noopener noreferrer">
+            <span class="support-icon" aria-hidden="true">💬</span>
+            <span>
+              <strong>WhatsApp</strong>
+              <small>Chat with support</small>
+            </span>
+          </a>
+
+          <a class="support-card glass-card" href="mailto:alphaloan26@gmail.com">
+            <span class="support-icon" aria-hidden="true">✉️</span>
+            <span>
+              <strong>Email</strong>
+              <small>alphaloan26@gmail.com</small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <a href="#home" class="brand">
+        <span class="brand-mark">R</span>
+        <span>Real Alpha Shylock Loan</span>
+      </a>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#products">Products</a>
+        <a href="#apply">Apply</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+
+    <div class="container">
+      <small>
+        © <span id="year"></span> Real Alpha Shylock Loan.
+        Loan availability and approval are subject to applicable terms.
+      </small>
+    </div>
+  </footer>
+
+  <script>
+    "use strict";
+
+    const $ = (selector) => document.querySelector(selector);
+
+    // Navigation buttons
+    document.querySelectorAll("[data-scroll]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = $(button.dataset.scroll);
+        if (target) target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    $("#portalBtn").addEventListener("click", () => {
+      $("#portal").scrollIntoView({ behavior: "smooth" });
+    });
+
+    $("#year").textContent = new Date().getFullYear();
+
+    // Spouse field is required only for married applicants.
+    const maritalStatus = $("#maritalStatus");
+    const spouseName = $("#spouseName");
+
+    function updateSpouseField() {
+      const married = maritalStatus.value === "Married";
+
+      spouseName.disabled = !married;
+      spouseName.required = married;
+
+      if (!married) spouseName.value = "";
+    }
+
+    maritalStatus.addEventListener("change", updateSpouseField);
+    updateSpouseField();
+
+    // Validate Kenyan phone number format.
+    function validKenyanPhone(value) {
+      return /^(?:\+254|0)[17]\d{8}$/.test(value.trim());
+    }
+
+    // Validate identity image types and file sizes in the browser.
+    // The server must repeat these checks independently.
+    function validateImage(input) {
+      const file = input.files && input.files[0];
+
+      if (!file) {
+        return input.required ? "Please select " + input.labels[0].textContent + "." : "";
+      }
+
+      const allowedTypes = ["image/jpeg", "image/png", "image/webp"];
+      const maximumSize = 5 * 1024 * 1024;
+
+      if (!allowedTypes.includes(file.type)) {
+        return "Use a JPG, PNG or WebP image for " +
+          input.labels[0].textContent + ".";
+      }
+
+      if (file.size > maximumSize) {
+        return input.labels[0].textContent + " must be 5 MB or smaller.";
+      }
+
+      return "";
+    }
+
+    // IMPORTANT:
+    // This frontend preview does not transmit, save, or submit applications.
+    // Connect this handler to a secure backend before accepting real applications.
+    $("#loanForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const form = event.currentTarget;
+      const message = $("#loanMessage");
+      message.className = "status-message";
+      message.textContent = "";
+
+      if (!form.reportValidity()) return;
+
+      const amount = Number($("#loanAmount").value);
+
+      if (!Number.isFinite(amount) || amount < 5000 || amount > 50000) {
+        $("#loanAmount").setCustomValidity(
+          "Enter an amount between KSh 5,000 and KSh 50,000."
+        );
+        $("#loanAmount").reportValidity();
+        $("#loanAmount").setCustomValidity("");
+        return;
+      }
+
+      if (!validKenyanPhone($("#phone").value)) {
+        $("#phone").setCustomValidity(
+          "Enter a valid Kenyan mobile number, for example 0712345678."
+        );
+        $("#phone").reportValidity();
+        $("#phone").setCustomValidity("");
+        return;
+      }
+
+      if (!validKenyanPhone($("#guarantorPhone").value)) {
+        $("#guarantorPhone").setCustomValidity(
+          "Enter a valid Kenyan mobile number for the guarantor."
+        );
+        $("#guarantorPhone").reportValidity();
+        $("#guarantorPhone").setCustomValidity("");
+        return;
+      }
+
+      for (const id of ["passportPhoto", "idFront", "idBack"]) {
+        const error = validateImage($("#" + id));
+
+        if (error) {
+          message.textContent = error;
+          message.className = "status-message visible error";
+          return;
+        }
+      }
+
+      // No personal data or documents are sent anywhere in this preview.
+      message.textContent =
+        "The form passed the browser checks, but no application has been sent. " +
+        "Secure server submission must be configured before this form can accept real applications.";
+      message.className = "status-message visible info";
+    });
+
+    // Login/register tabs. These are interface demonstrations only.
+    let activeMode = "login";
+
+    document.querySelectorAll("[data-tab]").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        activeMode = tab.dataset.tab;
+
+        document.querySelectorAll("[data-tab]").forEach((item) => {
+          const active = item === tab;
+          item.classList.toggle("active", active);
+          item.setAttribute("aria-selected", String(active));
+        });
+
+        const register = activeMode === "register";
+        $("#confirmPasswordWrapper").classList.toggle("hidden", !register);
+        $("#confirmPassword").required = register;
+        $("#authButton").textContent = register ? "Create Account" : "Login";
+        $("#authPassword").autocomplete = register
+          ? "new-password"
+          : "current-password";
+
+        $("#authMessage").className = "status-message";
+        $("#authMessage").textContent = "";
+      });
+    });
+
+    $("#authForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const form = event.currentTarget;
+      if (!form.reportValidity()) return;
+
+      const password = $("#authPassword").value;
+      const message = $("#authMessage");
+
+      if (activeMode === "register" &&
+          password !== $("#confirmPassword").value) {
+        message.textContent = "The passwords do not match.";
+        message.className = "status-message visible error";
+        return;
+      }
+
+      message.textContent =
+        "Authentication is not connected yet. No account was created, " +
+        "and no password was sent or stored. A secure backend is required.";
+      message.className = "status-message visible info";
+    });
+  </script>
+</body>
+</html>
+```
